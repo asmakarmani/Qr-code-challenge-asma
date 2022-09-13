@@ -1,10 +1,14 @@
 .p{
     font-size: 15px;
-    color:burlywood;
+    color:hsl(220, 15%, 55%);
 }
 body{
+  min-height: 100vh;   /*Flexbox aligns child items to the size of the parent container */
   text-align: center;
   justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 * {
     font-family: 'Oufit';
@@ -12,18 +16,16 @@ body{
     justify-content: center;
   }
   .qr-container{
-    width: 300px;;
+    width: 300px;
     height: 470px;
     align-items: center;
-    background-color:white;
+    background-color: hsl(0, 0%, 100%);
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     border-radius: 10px 10px 10px 10px;
    position: relative;
-   margin: auto;
-
   }
   .qr-image{
     width: 270px;
@@ -36,22 +38,22 @@ body{
   display: flex;
   flex-direction: column;
   text-align: center;
-  background-color:white;
+  background-color: hsl(0, 0%, 100%);
   font-family: 'Outfit';
   padding: 18px 18px 18px 18px;
   margin-bottom: -30px;
  }
  .text-1{
   align-items: center;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 20px;
   margin-bottom: 20px;
-  background-color:white;
+  background-color: hsl(0, 0%, 100%);
  }
  .text-2{
   align-items: center;
-  font-weight: normal;
+  font-weight: 400;
   font-size: 15px;
-  background-color:white;
+  background-color: hsl(0, 0%, 100%);
   color: #A9A9A9;
 }
